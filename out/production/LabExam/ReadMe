@@ -1,0 +1,20 @@
+
+# OOSE LAB EXAM
+
+The project is a text-based adventure game that randomly generates an open world for players to explore.
+
+The game world is represented by a 2D grid of coordinates that are populated by various types of encounters.
+
+The users have the option to set the grid size to any size starting from (2,2).
+
+It follows the Object-Oriented Programming (OOP) paradigm and utilizes various design patterns to achieve a robust and
+scalable structure.
+
+The Factory Method pattern is used to create different types of encounters in the game. The EncounterFactory abstract
+class defines the method for creating an encounter, and its concrete subclasses implement this method to create
+different types of encounters.
+
+The Singleton pattern is used for the Player class to ensure that only one instance of the Player object exists
+throughout the game.
+
+The Observer pattern is used to notify the Player object of any changes in the Encounter objects within its proximity.

@@ -1,0 +1,5 @@
+package encounters;
+
+public enum EncounterType {
+    FLAT_LANDS, FINISH_POINT, WOLF, LAKE, STARTING_POINT, HEALTH_POTION, POISON, STORMY_WEATHER, SHRINK_MAP
+}
